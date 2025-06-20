@@ -15,7 +15,7 @@ public class FirebaseUploader {
     private static List<(string Name, long ReturnTimeUnix)> LastUploadedTimers = new();
 
     public FirebaseUploader() {
-        var path = Path.Combine(myretainers.Plugin.PluginInterface.AssemblyLocation.DirectoryName!, "ffxiv-calendar-01-firebase-adminsdk-fbsvc-400753f80d.json");
+        var path = Path.Combine(myretainers.Plugin.PluginInterface.AssemblyLocation.DirectoryName!, "firebase_credentials.json");
         Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", path);
 
         if (FirebaseApp.DefaultInstance == null) {
