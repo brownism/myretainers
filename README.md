@@ -13,7 +13,8 @@ This is a Dalamud plugin for Final Fantasy XIV that uploads retainer data (inclu
 1. Build the project in Visual Studio (Release).
 2. Drop your Firestore.json file into the same folder as myretainers.dll
 3. Go to `/xlsettings` in-game and add the .dll to your Dev Plugin Locations.
-4. You will need a .json file from Firestore to make this work. Whereever the data goes after it automatically goes to Firestore is up to you. 
+4. Open https://console.firebase.google.com/ and sign in. Obtain a Node.js file from the Firebase Admin SDK and rename it "firebase.json".
+5. Drop that .json file into the same folder as the .dll you just built. 
 5. Enable it via `/xlplugins`.
 
 ## Author
