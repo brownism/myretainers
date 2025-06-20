@@ -1,0 +1,10 @@
+{
+  "Author": "brownism and hellish",
+  "Name": "myretainers",
+  "Punchline": "See your retainers data real-time.",
+  "Description": "Send retainer data real-time to Firestore. use /myretainers to see your retainers data.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "plugin"
+  ]
+}
