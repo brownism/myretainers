@@ -1,6 +1,6 @@
 # My Retainers
 
-This is a Dalamud plugin for Final Fantasy XIV that uploads retainer venture return timers to Firebase. Useful for tracking your retainers across characters or devices.
+This is a Dalamud plugin for Final Fantasy XIV that uploads retainer data (including or will include ventures, return timers, classes, and stats) to Firebase. Useful for tracking your retainers across all characters on any remote device.
 
 ## Features
 
